@@ -1,8 +1,9 @@
 const welcome = document.querySelector('.welcome');
 const error = document.querySelector('.error');
+const dashUrl = '/api/dashboard';
 
 (async function fetchContent() {
-    const response = await fetch('http://localhost:3000/dashboard', {
+    const response = await fetch(dashUrl,{
         credentials: 'include'
     });
     try {

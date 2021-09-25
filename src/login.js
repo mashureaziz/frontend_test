@@ -1,6 +1,6 @@
 const submitButton = document.getElementById('submit');
 const uploadForm = document.querySelector('.login');
-const signInLink = "http://localhost:3000/login";
+const signInLink = '/api/login';
 const responseBox  = document.querySelector('.response');
 
 submitButton.addEventListener('click', async(e) => {
