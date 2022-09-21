@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T18:32:43.414Z" agent="5.0 (Macintosh)" etag="iLhAYq3HKowFymqfTkCs" version="20.3.3" type="github"><diagram id="hvst6pSnWHt4odJIvTWv" name="Sign up">zVfbcpswEP0aP8bDxRf82NhJ2hmnl9BM0r4psAalgIgkbNOv7wokMMFxnZmm8QujPbrs6uweSQzcebq94iSPr1kIycCxwu3AXQwcZzaa4FcBZQ1MRlYNRJyGNWS3gE9/gwbNsIKGIDoDJWOJpHkXDFiWQSA7GOGcbbrDVizpes1JBD3AD0jSR+9oKOMa9cZWi38EGsXGs23pnpSYwRoQMQnZZgdyLwbunDMm61a6nUOiuDO81PMuX+htAuOQyWMmpP5yBY+fp/c/P33ZJk9XK/t+fmbrZYQszY4hRAK0ybiMWcQykly06DlnRRaCWtZCqx2zZCxH0EbwEaQsdTZJIRlCsUwT3YsR8/Jez6+MH8oYjo252O52LkptrVgm9aK2h3Yduwr4RU7M/ljBAzhAxFTXFuERyAPjvCZzWPHAUsD4cB6HhEi67sZBdO1Fzbg2PdjQGXpFtnSQa5IU2tMNECx6dJXnapeQhaKK5qkAISutKG1wIBKwUQjgvXy32VSp2cRUgp+TiqwNSrqbuf0ZWAOXsD2cgz5neoI5EPQBYU+1vWnlZhu5xbtSM0r75zTbzimJwvVmf5FFZX0FTnH7mOA314p3pFZm76kVr6eVJUkfQqIugSILJGWZWkJ9yEaJhgQB5FI0MrFCkIQm4uQE4zqnpxj3fRUzHI+9rmosa3RiqpkdqRrb2p/9/yObWU82A2eSYLznIV1jM1LNRkn46pJ4AYlGRAGLMlpdOmtKOjZqak0DdQvlnK3xUcd35Hcmwl9D4+iBGz8GwZ3seN8TUOuGZGFz4+1ouXLUjsrxCXm8uxPT/3j6TP/jvv6dyT79e2+mf6tXNrd5dcCKAo9VIVZFYtJSH7xs9VJyMAIr2VNgNwt/T37rQXlplpQxPFv4uvS/LdVxTiR5IAKwzqzvMVWTN6RsFuaQEpoJM0uUWVBRiow2wQ1PrxYm3VoYHVsLjvtmtTDq1YJPI8Vpod6olwn+BGmSP9z5Bxi13oVR5xmjbp9Q19tD6OT1fKLZ/v5VfTv/0O7FHw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-21T18:32:55.192Z" agent="5.0 (Macintosh)" etag="1nlPbF5Gzf8IRjCd0QRC" version="20.3.3" type="github">
+  <diagram id="hvst6pSnWHt4odJIvTWv" name="Sign up">
+    <mxGraphModel dx="946" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="mSLfejN7XZIOxlqGf1XC-7" target="mSLfejN7XZIOxlqGf1XC-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-7" value="React app sends request to create user" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" parent="1" source="mSLfejN7XZIOxlqGf1XC-8" target="mSLfejN7XZIOxlqGf1XC-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-8" value="Lambda function in aws accepts user details" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="320" y="170" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;" parent="1" source="mSLfejN7XZIOxlqGf1XC-9" target="mSLfejN7XZIOxlqGf1XC-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="390" />
+              <mxPoint x="705" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-9" value="&lt;div&gt;Lambda contacts aws cognito via cognito service provider in aws-sdk.&lt;br&gt;&lt;/div&gt;&lt;div&gt;cognito and creates user in cognito pool&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="570" y="150" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-10" value="Upon successful creation of user in cognito, lambda contacts RDS and creates a copy of the user in MySQL database. This way RDS remains in sync with cognito." style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="560" y="450" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mSLfejN7XZIOxlqGf1XC-14" value="Sign up Flow in AWS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="260" y="30" width="380" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
